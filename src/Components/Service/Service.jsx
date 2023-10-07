@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Service = ({service}) => {
@@ -12,7 +13,7 @@ const Service = ({service}) => {
           <p>{short_description}</p>
           <p>{price}</p>
           <div className="card-actions">
-            <button className="border border-black px-3 py-1 hover:bg-black hover:text-white"> {button_name}</button>
+           <Link to={`/services/${id}`}> <button className="border border-black px-3 py-1 hover:bg-black hover:text-white"> {button_name}</button></Link>
           </div>
         </div>
       </div>
