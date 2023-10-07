@@ -6,7 +6,7 @@ import { AiOutlineFacebook, AiOutlineInstagram, AiFillTwitterSquare } from "reac
 const Footer = () => {
     return (
         <div className="bg-[#1e1d26]">
-           <div className="flex flex-col w-4/5 mx-auto text-white gap-5 py-5 items-center space-y-5">
+           <div className="flex flex-col lg:w-4/5 mx-auto text-white gap-5 py-5 items-center space-y-5">
            
             <div className="text-center space-y-3">
                 <p>
@@ -20,10 +20,10 @@ const Footer = () => {
                     <AiFillTwitterSquare></AiFillTwitterSquare>
                 </div>
             </div>
-            <div className="flex gap-10">
+            <div className="flex gap-3 lg:gap-10 p-1">
                 <div>
                     <h1>OUR ADDRESS</h1>
-                    <p className="text-xs">198 West 21th Street, Suite 721 New York, <br /> NY 10010</p>
+                    <p className="text-xs">198 West 21th Street, <br /> Suite 721 New York, NY 10010</p>
 
                 </div>
                 <div>
@@ -31,8 +31,8 @@ const Footer = () => {
                     <p className="text-xs">youremail@yourdomain.com</p>
                 </div>
                 <div>
-                    <h1>CONTACT US</h1>
-                    <p className="text-xs">+88 (0) 101 0000 000</p>
+                    <h1> Contact Us</h1>
+                    <p className="text-xs">+88 101 0000 000</p>
                 </div>
             </div>
           

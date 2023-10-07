@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const WhyUs = () => {
     return (
         <div className="flex gap-5 items-center w-3/4 mx-auto mb-16 ">
-            <div className="h-[400px] w-1/3">
+            <div className="h-[200px] lg:h-[400px] w-1/3">
                 <img className="h-full w-full" src="https://i.ibb.co/rwztz24/Home-01-port-08.jpg" alt="" />
             </div>
             <div className="w-3/5  p-6 space-y-5">

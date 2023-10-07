@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "event_name": "Concerts and Music Festivals",
+      "price": "$500.00",
+      "img": "https://i.ibb.co/vxG0cMX/audience-1853662-1280.jpg",
+      "short_description": "Join us for an epic musical experience!",
+      "full_description": "As your dedicated event organizer, we invite you to an unforgettable musical journey. We've curated a lineup of top artists from around the world, ensured delicious food options from local vendors, and created a vibrant atmosphere to make your experience truly special. Immerse yourself in a diverse range of music genres, from rock to jazz, and create lasting memories under the starry sky.",
+      "button_name": "Details"
+    },
+    {
+      "id": 2,
+      "event_name": "Theater and Performing Arts",
+      "price": "$500.00",
+      "img": "https://i.ibb.co/NrM9Lsf/opera-594592-1280.jpg",
+      "short_description": "Get ready to laugh and be entertained!",
+      "full_description": "As your event organizer, we've prepared an evening of non-stop laughter and captivating performances. Our talented actors and comedians are ready to take the stage to ensure you have an unforgettable time. From thought-provoking dramas to side-splitting comedies, our theatrical experience promises to be like no other. Let us handle the details so you can sit back, relax, and enjoy the show.",
+      "button_name": "Details"
+    },
+    {
+      "id": 3,
+      "event_name": "Film Screenings and Premieres",
+      "price": "$500.00",
+      "img": "https://i.ibb.co/pdHYH50/bollywood-1687410-1280.jpg",
+      "short_description": "Experience movie magic like never before!",
+      "full_description": "Your event organizer is excited to present a night of cinematic wonder. Bring your blankets and popcorn, and get ready to experience the nostalgia of the silver screen under the twinkling night sky. Our premieres showcase the latest in cinematic artistry, offering you a sneak peek into the future of filmmaking. Join us for a magical night of movie entertainment.",
+      "button_name": "Details"
+    },
+    {
+      "id": 4,
+      "event_name": "Comedy Shows",
+      "price": "$500.00",
+      "img": "https://i.ibb.co/kHj8qXR/medium-shot-friends-posing-photo-booth.jpg",
+      "short_description": "Get ready to laugh until it hurts!",
+      "full_description": "As your dedicated event organizer, we've assembled a lineup of hilarious comedians who will deliver an evening of non-stop laughter and entertainment. From witty one-liners to outrageous sketches, this comedy show is sure to tickle your funny bone. Our comedians are masters of their craft, blending satire and humor to tackle contemporary issues with a healthy dose of laughter.",
+      "button_name": "Details"
+    },
+    {
+      "id": 5,
+      "event_name": "Sports Events",
+      "price": "$500.00",
+      "img": "https://i.ibb.co/VWMDf6y/team-807300-1280.jpg",
+      "short_description": "Witness the thrill of live sports!",
+      "full_description": "Join us, your event organizer, in witnessing heart-pounding sports action. Cheer for your favorite teams as they compete in high-stakes matches. Feel the adrenaline rush, join the passionate crowd, and be part of sporting history at this electrifying sports event. Expect nail-biting finishes and record-breaking feats that only a dedicated event organizer can deliver.",
+      "button_name": "Details"
+    },
+    {
+      "id": 6,
+      "event_name": "Exhibition",
+      "price": "$500.00",
+      "img": "https://i.ibb.co/wWwGLZt/andalusian-center-of-photography-2006506-1280.jpg",
+      "short_description": "Explore art, culture, and creativity with us!",
+      "full_description": "Bring the family to discover a world of art, culture, and creativity at our exhibition. As your event organizer, we've ensured captivating displays and interactive experiences for all ages. Immerse yourself in the rich tapestry of human expression and leave with a newfound appreciation for the arts. Witness the evolution of art and culture through the centuries, from ancient civilizations to contemporary masterpieces, all curated with care by your event organizer.",
+      "button_name": "Details"
+    }
+  ]
+  
