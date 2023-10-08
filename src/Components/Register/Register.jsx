@@ -19,7 +19,7 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
 
-       
+
 
         setSuccess('')
         setRegisterError('')
@@ -61,17 +61,10 @@ const Register = () => {
 
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen  bg-base-200">
 
                 <div className="  rounded-lg pb-8 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <form className="card-body" onSubmit={handleRegister}>
-
-                        <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Name</span>
-                            </label>
-                            <input type="text" name='name' placeholder="Name" className="input input-bordered" required />
-                        </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
@@ -98,7 +91,7 @@ const Register = () => {
                         success && <p className="text-green-600 text-center">{success}</p>
                     }
                     <p className="text-center">Already Have an account? Please <Link to="/login" className="text-blue-600">Login</Link></p>
-                   
+
                 </div>
 
             </div>

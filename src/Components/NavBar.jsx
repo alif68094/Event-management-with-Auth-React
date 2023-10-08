@@ -42,9 +42,21 @@ const Navbar = () => {
 
 
           </li>
+          <li className="text-xl">
+            <NavLink
+              to="/career"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-red-600 font-bold" : ""
+              }
+            >
+              Career
+            </NavLink>
+
+
+          </li>
 
           
-          <li className="text-xl">
+          <li className="text-xl hidden md:contents">
             <NavLink
               to="/login"
               className={({ isActive, isPending }) =>
