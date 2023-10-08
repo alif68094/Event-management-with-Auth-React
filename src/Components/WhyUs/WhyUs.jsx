@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const WhyUs = () => {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    },[])
     return (
-        <div className="flex gap-5 items-center w-3/4 mx-auto mb-16 ">
+        <div className="flex gap-5 items-center w-3/4 mx-auto mb-16 " data-aos ="fade-left">
             <div className="h-[200px] lg:h-[400px] w-1/3">
                 <img className="h-full w-full" src="https://i.ibb.co/rwztz24/Home-01-port-08.jpg" alt="" />
             </div>

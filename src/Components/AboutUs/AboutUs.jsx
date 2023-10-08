@@ -1,8 +1,14 @@
 
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 const AboutUs = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    },[])
     return (
-        <div className="mt-20 mb-20 w-3/4 mx-auto">
+        <div className="mt-20 mb-20 w-3/4 mx-auto" data-aos ="fade-right">
             <p className="tracking-widest text-center font-semibold mb-5">FEW WORDS ABOUT US</p>
             <h1 className="tracking-widest text-center text-3xl font-semibold">Events Inspired By Innovation</h1>
             <p className="text-xl tracking-widest text-gray-500 mt-5 text-center">

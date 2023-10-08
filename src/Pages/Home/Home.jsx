@@ -5,8 +5,10 @@ import Services from "../../Components/Services/Services";
 import WhyUs from "../../Components/WhyUs/WhyUs";
 
 
+
 const Home = () => {
     const services = useLoaderData();
+    
     return (
         <div>
             <Banner></Banner>

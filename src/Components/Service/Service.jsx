@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 
+
 const Service = ({service}) => {
     const {id, event_name, price, img, short_description, full_description, button_name} = service;
     return (

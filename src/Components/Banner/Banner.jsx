@@ -1,8 +1,13 @@
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 
 const Banner = () => {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    },[])
     return (
-        <div className='bg-[url("https://i.ibb.co/K6G8bYd/Image-15.jpg")] w-full  h-[500px] bg-cover bg-no-repeat flex flex-col justify-center items-center gap-6'>
+        <div className='bg-[url("https://i.ibb.co/K6G8bYd/Image-15.jpg")] w-full  h-[500px] bg-cover bg-no-repeat flex flex-col justify-center items-center gap-6' data-aos="fade-down">
            <div>
            <p className=" text-white text-lg font-bold tracking-wide text-center">THE ART OF CREATING MOOD</p>
             <h1 className="font-semibold text-6xl text-white tracking-wide text-center">
