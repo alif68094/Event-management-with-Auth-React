@@ -1,11 +1,12 @@
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Hooks/AuthProvider";
 
 const Login = () => {
 
     const {signInUser} = useContext(AuthContext)
     const [logInError, setLogInError] = useState('')
+    const navigate = useNavigate();
 
 
     const handleLogin = e => {
@@ -18,6 +19,8 @@ const Login = () => {
         signInUser(email, password)
         .then(result => {
             console.log(result);
+            e.target.reset();
+            navigate('/')
             
         })
         .catch(error => {
@@ -29,7 +32,11 @@ const Login = () => {
     const {googleSignIn} = useContext(AuthContext)
     const handleGoogle = () => {
             googleSignIn()
-            .then(res => console.log(res))
+            .then(res => {
+                console.log(res)
+                navigate('/')
+                
+            })
             .catch(error => console.log(error))
     }
 
@@ -55,8 +62,8 @@ const Login = () => {
                                 <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                             </label>
                         </div>
-                        <div className="form-control mt-6">
-                            <button className="btn btn-primary">Login</button>
+                        <div className=" mx-auto mt-6">
+                            <button className="hover:bg-black hover:text-white rounded px-16 font-medium border py-2 ">Login</button>
                         </div>
                         </form>
                         {

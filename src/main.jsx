@@ -13,6 +13,7 @@ import AuthProvider from './Hooks/AuthProvider';
 import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import PrivateRoute from './Components/PrivateRoute/privateRoute';
+import Gallery from './Components/Gallery/Gallery';
 
 const router = createBrowserRouter([
   {
@@ -31,13 +32,18 @@ const router = createBrowserRouter([
         loader: () => fetch('/services.json')
       },
       {
+        path: "/galleries",
+        element: <PrivateRoute><Gallery></Gallery></PrivateRoute>
+      },
+      {
         path: "/login",
         element: <Login></Login>
       },
       {
         path: "/register",
         element: <Register></Register>
-      }
+      },
+     
     ]
   },
 ]);
